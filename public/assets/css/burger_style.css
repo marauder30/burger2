@@ -1,0 +1,24 @@
+* {
+    background: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+img {
+    display: block;
+    height: 197px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#notEaten {
+    display: block;
+}
+
+#eaten {
+    display: block;
+}
