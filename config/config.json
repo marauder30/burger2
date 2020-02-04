@@ -1,27 +1,26 @@
 {
-    "development": {
-      "username": "localhost",
-      "password": "SQL$tchamps8080",
-      "database": "burger2_db",
-      "host": "127.0.0.1",
-      "port": 3306,
-      "dialect": "mysql"
-    },
-    "test": {
-      "username": "localhost",
-      "password": "SQL$tchamps8080",
-      "database": "burger2_db",
-      "host": "127.0.0.1",
-      "port": 3306,
-      "dialect": "mysql"
-    },
-    "production": {
-      "username": "localhost",
-      "password": "SQL$tchamps8080",
-      "database": "burger2_db",
-      "host": "127.0.0.1",
-      "port": 3306,
-      "dialect": "mysql"
-    }
+  "development": {
+    "username": "localhost",
+    "password": "SQL$tchamps8080",
+    "database": "burger2_db",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "localhost",
+    "password": "SQL$tchamps8080",
+    "database": "burger2_db",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "localhost",
+    "password": "SQL$tchamps8080",
+    "database": "burger2_db",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
   }
-  
+}
