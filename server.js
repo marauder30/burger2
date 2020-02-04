@@ -1,12 +1,15 @@
 let express = require("express");
+let app = express();
 let PORT = process.env.PORT || 8080;
 
-let app = express();
+let db = require("./models");
 
 app.use(express.static("public"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+app.use(express.static("public"));
 
 // let exphbs = require("express-handlebars");
 
