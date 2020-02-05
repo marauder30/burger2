@@ -4,12 +4,12 @@ let router = express.Router();
 let burger = require("../models/burger.js");
 
 router.get("/", function(req, res) {
-    burger.all(function(data) {
-      var hbsObject = {
-        burgers: data
-      };
-      res.render("index", hbsObject);
-    });
+  burger.all(function(data) {
+    var hbsObject = {
+      burgers: data
+    };
+    res.render("index", hbsObject);
+  });
 });
 
 router.post("/api/burgers", function(req, res) {
@@ -41,16 +41,5 @@ router.put("/api/burgers/:id", function(req, res) {
       }
     });
 });
-
-// router.delete("/api/burgers/:id", function(req, res) {
-//     let condition = `id = ${req.params.id}`;
-  
-//     burger.delete(condition, function(result) {
-//       if (!result.affectedRows) {
-//         return res.status(404).end();
-//       } 
-//       res.status(200).end(); 
-//     });
-// });
 
 module.exports = router;
